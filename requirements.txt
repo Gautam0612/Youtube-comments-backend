@@ -6,4 +6,4 @@ nltk == 3.8.1
 pyrebase4 == 4.8.0
 textblob == 0.18.0.post0
 gunicorn == 22.0.0
-flask-cors ==  4.0.1
+flask_cors ==  4.0.1
