@@ -1,0 +1,8 @@
+flask == 3.0.3
+requests ==  2.32.3
+google-api-python-client ==  2.136.0
+pandas == 2.2.2
+nltk == 3.8.1
+pyrebase4 == 4.8.0
+textblob == 0.18.0.post0
+gunicorn == 22.0.0
