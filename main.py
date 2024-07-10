@@ -169,7 +169,7 @@ def function_analyzer(url):
 @app.route('/analyze', methods=['POST'])
 def analyzer():
     url = flask.request.json['url']
-    print("URL: ", url)
+   # print("URL: ", url)
     lst = function_analyzer(url)
     colname = ["Title", "Author", "Duration", "Likes", "Dislikes", "ViewCount", "Rating", "Sentiment_of_Comments", "Top_Comments_Percentage"]
     data1 = {}
@@ -180,7 +180,7 @@ def analyzer():
             print(colname[i], item, sep=" : ")
             data1[colname[i]] = item
         else:
-            print(item)
+            #print(item)
         i += 1
 
     # Adding top comments to data1 dictionary
